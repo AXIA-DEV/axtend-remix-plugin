@@ -8,7 +8,7 @@ import SmartContracts from './components/SmartContracts';
 import { InterfaceContract } from './components/Types';
 import TxValue from './components/TxValue';
 
-const supportedNetworks: string[] = ['Moonbase Alpha', 'Moonriver', 'Moonbeam'];
+const supportedNetworks: string[] = ['AXtend'];
 
 const App: React.FunctionComponent = () => {
 	const [account, setAccount] = React.useState<string>('');

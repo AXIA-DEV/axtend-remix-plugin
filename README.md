@@ -37,7 +37,7 @@ When developing the plugin, you can view the changes you're making locally from 
 2. Towards the top, click on **Connect to a Local Plugin**
 3. Fill in the plugin details:
 
-    - **Plugin Name** - Moonbeam Test Plugin
+    - **Plugin Name** - AXend Plugin
     - **Url** - http://localhost:3000
     - **Type of connection** - iframe
     - **Location in remix** - side panel

@@ -29,6 +29,10 @@ export const NETWORKS: { [key: string]: Network } = {
 	'Moonbase Local': {
 		provider: 'http://127.0.0.1:9933',
 	},
+	AXtend: {
+		provider: 'https://rpc.bob.axia.zeeve.net',
+		explorer: 'https://moonbase.moonscan.io',
+	},
 };
 
 export interface NetworkById {
@@ -45,11 +49,14 @@ export const NETWORKS_BY_IDS: NetworkById = {
 	'1284': {
 		name: 'Moonbeam',
 	},
-	'1281': {
+	'1286': {
 		name: 'Moonbeam Dev',
 	},
 	'1280': {
 		name: 'Moonbase Local',
+	},
+	'1281': {
+		name: 'AXtend',
 	},
 };
 
@@ -94,6 +101,17 @@ const NETWORK_CONFIGS: any = {
 			decimals: 18,
 		},
 		rpcUrls: ['https://rpc.api.moonbeam.network'],
+		blockExplorerUrls: ['https://moonbeam.moonscan.io/'],
+	},
+	AXtend: {
+		chainId: '0x501',
+		chainName: 'AXtend',
+		nativeCurrency: {
+			name: 'wAXC',
+			symbol: 'wAXC',
+			decimals: 18,
+		},
+		rpcUrls: ['https://rpc.bob.axia.zeeve.net'],
 		blockExplorerUrls: ['https://moonbeam.moonscan.io/'],
 	},
 };
