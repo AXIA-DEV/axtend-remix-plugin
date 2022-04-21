@@ -1,7 +1,7 @@
 {
-  "name": "moonbeam-remix-plugin",
-  "displayName": "Moonbeam Plugin",
-  "description": "Deploy and interact with Moonbeam.",
+  "name": "AXtend-remix-plugin",
+  "displayName": "Axtend Plugin",
+  "description": "Deploy and interact with AXtend.",
   "events": [],
   "methods": [],
   "url": "https://purestake.github.io/moonbeam-remix-plugin",

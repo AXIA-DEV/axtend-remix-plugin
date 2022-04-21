@@ -28,7 +28,7 @@
     "web3-core": "^1.3.4",
     "web3-utils": "^1.3.2"
   },
-  "homepage": "/moonbeam-remix-plugin",
+  "homepage": "/AXtend-remix-plugin",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
