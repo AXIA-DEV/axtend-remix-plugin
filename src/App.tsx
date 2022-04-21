@@ -191,7 +191,7 @@ const App: React.FunctionComponent = () => {
 					</Form.Group>
 					<Form.Group>
 						<Form.Text className="text-muted">
-							<small>BALANCE (MOONBEAM)</small>
+							<small>BALANCE (AXtend)</small>
 						</Form.Text>
 						<InputGroup>
 							<Form.Control type="text" placeholder="0.0" value={balance} size="sm" readOnly />
