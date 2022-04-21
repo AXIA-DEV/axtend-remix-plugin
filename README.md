@@ -1,4 +1,4 @@
-![moonbeam](./public/Moonbeam_Logo_Final_500px.png)
+![moonbeam](./public/AXIA-blue-logo.png)
 
 # Moonbeam Plugin for Remix
 
