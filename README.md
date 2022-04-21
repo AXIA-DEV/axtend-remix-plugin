@@ -1,16 +1,16 @@
 ![moonbeam](./public/AXIA-blue-logo.png)
 
-# Moonbeam Plugin for Remix
+# AXtend Plugin for Remix
 
-The Moonbeam plugin for Ethereum's Remix IDE. It support for deploy and interacting on a Moonbeam network.
+The AXtend plugin for Ethereum's Remix IDE. It support for deploy and interacting on the AXtend network.
 
 # Getting Started
 
 First, clone the repository:
 
 ```
-git clone https://github.com/PureStake/moonbeam-remix-plugin
-cd moonbeam-remix-plugin
+git clone https://github.com/AXIA-DEV/axtend-remix-plugin
+cd axtend-remix-plugin
 ```
 
 Install dependencies:
@@ -53,11 +53,10 @@ To publish changes to the live plugin, all you have to do is run `yarn publish-p
 
 ## How to Use the Plugin
 
-1. Click RemixIDE Plugin Manager Icon and activate Moonbeam Plugin
-2. Click Moonbeam Plugin Icon
-3. Connect MetaMask Wallet Account
-4. Select Network
-5. Compile your smart contract
-6. Select Contract to deploy
-7. Deploy
+
+1. Connect MetaMask Wallet Account
+2. Select Network
+3. Compile your smart contract
+4. Select Contract to deploy
+5. Deploy
 
